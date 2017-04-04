@@ -23,7 +23,7 @@ body {
 }
 
 .navbar a {
-  font-size: 16px;
+  font-size: 22px;
 }
 
 .navbar .fa-external-link {
@@ -216,9 +216,9 @@ hr {
   background: #000;
   font-size: .95rem;
   color: #fff;
-  
+
   @extend %transition;
-  
+
   &:hover,
   &:focus {
     background: $red;
@@ -229,7 +229,7 @@ hr {
 /*Footer*/
 
 footer {
-  background: #000;
+  background: #333;
 }
 
 .soc-media-ul {
