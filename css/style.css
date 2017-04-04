@@ -147,7 +147,10 @@ hr {
 
 /*Testimonials*/
 .sec-testimonials {
-  background: #f9f9f9; }
+  position: relative;
+  height: 560px;
+  background: url(https://source.unsplash.com/DtDlVpy-vvQ/1920x1080) no-repeat center center;
+  background-size: cover; }
 
 /*Contact*/
 .sec-contact .form-control:focus {
@@ -177,10 +180,8 @@ footer {
 .soc-media-ul a {
   display: block;
   padding: 0.5em .65rem;
-  font-size: 1rem;
-  color: #fff;
-  border-radius: 50%;
-  border: 2px solid; }
+  font-size: 2rem;
+  color: #fff; }
   .soc-media-ul a:hover, .soc-media-ul a:focus {
     color: #4183C4; }
 
