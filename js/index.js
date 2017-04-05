@@ -7,6 +7,11 @@ $(function() {
   });
 });
 
+$('#toggle').click(function() {
+   $(this).toggleClass('active');
+   $('#overlay').toggleClass('open');
+  });
+
 var mContainer;
 var mCamera, mRenderer;
 var mControls;
