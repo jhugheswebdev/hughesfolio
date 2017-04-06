@@ -225,4 +225,8 @@ footer {
   .soc-media-ul a:hover, .soc-media-ul a:focus {
     color: #4183C4; }
 
+@media only screen and (max-width: 500px) {
+  .soc-media-ul a {
+    padding: 0.5rem .25rem; } }
+
 /*# sourceMappingURL=style.css.map */

@@ -308,3 +308,9 @@ footer {
         color: $blue;
     }
 }
+
+@media only screen and (max-width: 500px) {
+    .soc-media-ul a {
+        padding: 0.5rem .25rem;
+    }
+}
