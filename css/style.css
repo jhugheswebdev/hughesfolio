@@ -43,7 +43,7 @@ p {
   font-weight: 300;
   text-align: center; }
 
-.sec-testimonials p {
+.sec-skills p {
   font-style: italic; }
 
 .sec-contact .btn {
@@ -146,7 +146,7 @@ hr {
   margin: 1em 0; }
 
 /*Skills*/
-.sec-testimonials {
+.sec-skills {
   background: #f9f9f9; }
 
 .skills {
