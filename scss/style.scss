@@ -6,8 +6,8 @@ $blue: #4183C4;
     transition: all .25s;
 }
 
-/*=Typography=*/
 
+/*=Typography=*/
 html {
     font-size: 16px;
 }
@@ -33,8 +33,8 @@ body {
 .main-heading {
     font-family: 'Open sans', sans-serif;
     font-weight: 300;
-    text-align: center;
     letter-spacing: 9px;
+    text-align: center;
     text-transform: uppercase;
 }
 
@@ -64,7 +64,6 @@ p {
 }
 
 .sec-contact .btn {
-
     text-transform: uppercase;
 }
 
@@ -73,8 +72,8 @@ p {
     text-decoration: none;
 }
 
-/*=Base=*/
 
+/*=Base=*/
 section {
     padding: 5em 0;
 }
@@ -104,8 +103,8 @@ hr {
     width: 7%;
 }
 
-/*=Layout=*/
 
+/*=Layout=*/
 .sec-folio .row {
     margin-bottom: 3em;
 }
@@ -114,8 +113,8 @@ hr {
     max-width: 100%;
 }
 
-/*Header*/
 
+/*Header*/
 .navbar-default {
     background: #fff;
 }
@@ -133,8 +132,8 @@ hr {
     color: darken($blue, 5%);
 }
 
-/*Main*/
 
+/*Main*/
 .sec-main {
     position: relative;
     height: 560px;
@@ -165,8 +164,8 @@ hr {
     color: #fff;
 }
 
-/*About*/
 
+/*About*/
 .sec-about a {
     color: #000;
     &:hover,
@@ -175,8 +174,8 @@ hr {
     }
 }
 
-/*Services*/
 
+/*Services*/
 .sec-services {
     background: #f9f9f9;
 }
@@ -199,8 +198,8 @@ hr {
     margin: 1em 0;
 }
 
-/*Skills*/
 
+/*Skills*/
 .sec-skills {
     background: #f9f9f9;
 }
@@ -259,8 +258,8 @@ hr {
    	transition: width 4.50s ease !important;
  }
 
-/*Contact*/
 
+ /*Contact*/
 .sec-contact .form-control:focus {
     border-color: $blue;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(173, 0, 0, .6);
@@ -281,8 +280,8 @@ hr {
     }
 }
 
-/*Footer*/
 
+/*Footer*/
 footer {
     background: #333;
 }
