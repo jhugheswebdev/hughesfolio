@@ -3,7 +3,7 @@ $(document).ready(function() {
     $('.css').css('width', '90%');
     $('.jquery').css('width', '65%');
     $('.javascript').css('width', '70%');
-    $('.adobe').css('width', '85%');
+    $('.adobe').css('width', '80%');
     $('.wordpress').css('width', '10%');
     $('.ui').css('width', '65%');
     $('.rwd').css('width', '80%');
