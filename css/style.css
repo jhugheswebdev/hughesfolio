@@ -196,6 +196,20 @@ footer {
     color: #4183C4; }
 
 @media only screen and (max-width: 500px) {
+  section {
+    padding: 3em 2em; }
+
+  .navbar {
+    padding: 0 .5rem; }
+
+  .navbar-brand {
+    font-size: 1.25rem;
+    letter-spacing: .2rem; }
+
+  .sec-folio img {
+    max-width: 100%;
+    padding-bottom: 1rem; }
+
   .soc-media-ul a {
     padding: 0.5rem .25rem; } }
 
