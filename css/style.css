@@ -6,7 +6,7 @@ html {
   font-size: 16px; }
 
 body {
-  font-family: 'Open sans', sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300; }
 
 .navbar a,
@@ -20,20 +20,25 @@ body {
   font-size: 10px; }
 
 .main-heading {
-  font-family: 'Open sans', sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-size: 4.25rem;
   font-weight: 300;
   letter-spacing: 9px;
   text-align: center;
   text-transform: uppercase; }
 
 .container > h1 {
+  font-family: "Oswald", sans-serif;
   font-weight: 300;
+  letter-spacing: .2rem;
   text-align: center;
   text-transform: uppercase; }
 
 p {
-  font-size: 16px;
-  line-height: 1.5; }
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 18px; }
 
 .sec-about a {
   text-decoration: underline; }
@@ -110,6 +115,8 @@ hr {
     background: rgba(0, 0, 0, 0.5); }
 
 .main-heading {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1rem;
   position: absolute;
   top: 0;
   right: 0;
@@ -143,54 +150,8 @@ hr {
   width: 68px; }
 
 .sec-services h2 {
-  margin: 1em 0; }
-
-/*Skills*/
-.sec-skills {
-  background: #f9f9f9; }
-
-.skills {
-  float: left;
-  clear: right;
-  width: 100%;
-  margin: 20px 0px 30px 30px; }
-
-.skillsTop {
-  float: left;
-  clear: right;
-  width: 100%;
-  margin: 5px;
-  text-align: left;
-  font-weight: 600;
-  font-family: sans-serif;
-  font-weight: 200; }
-
-.skillsBottom {
-  float: left;
-  clear: right;
-  width: 80%;
-  margin: 2px 0px 0px 0px; }
-
-.progress {
-  background: #e9e5e2;
-  height: 25px;
-  -moz-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;
-  -webkit-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0    #fcfcfc;
-  box-shadow: 0 1px 0px #bbbbbb inset, 0 1px 0 #fcfcfc; }
-
-.progress-bar {
-  background-image: -webkit-linear-gradient(left, #5BC0DE 0%, #337AB7 100%);
-  background-image: -moz-linear-gradient(left, #5BC0DE 0%, #337AB7 100%);
-  background-image: -o-linear-gradient(left, #5BC0DE 0%, #337AB7 100%);
-  background-image: linear-gradient(to right, #5BC0DE 0%, #337AB7 100%);
-  height: 100%;
-  width: 0%; }
-
-.adobe, .html, .css, .jquery, .javascript, .bootstrap, .wordpress, .ui, .ux, .rwd, .mobile, .rapidproto {
-  -webkit-transition: width 4.50s ease !important;
-  -moz-transition: width 4.50s ease !important;
-  -o-transition: width 4.50s ease !important;
-  transition: width 4.50s ease !important; }
+  margin: 1em 0;
+  font-weight: 400; }
 
 /*Contact*/
 .sec-contact .form-control:focus {

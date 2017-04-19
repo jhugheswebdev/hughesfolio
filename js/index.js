@@ -1,13 +1,4 @@
-$(document).ready(function() {
-    $('.html').css('width', '90%');
-    $('.css').css('width', '90%');
-    $('.jquery').css('width', '65%');
-    $('.javascript').css('width', '70%');
-    $('.adobe').css('width', '80%');
-    $('.wordpress').css('width', '10%');
-    $('.ui').css('width', '65%');
-    $('.rwd').css('width', '80%');
-});
+
 
 $(function() {
   $('.js-nav a, .js-connect').click(function(e) {
