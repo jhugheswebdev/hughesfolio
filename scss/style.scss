@@ -37,20 +37,25 @@ body {
     font-weight: 300;
 }
 
+.navbar {
+    padding: 0 4rem;
+}
+
 .navbar a,
 .sec-about p {
     text-align: center;
 }
 
 .navbar a {
-    font-size: 20px;
 }
 
 .navbar-brand {
     font-family: "Oswald";
     text-transform: uppercase;
-    color: black;
+    font-size: 1.75rem;
+    letter-spacing: .2rem;
 }
+
 .navbar .fa-external-link {
     font-size: 10px;
 }
@@ -62,9 +67,10 @@ body {
     letter-spacing: 9px;
     text-align: center;
     text-transform: uppercase;
+    padding: 0 1.75rem;
 }
 
-.container > h1 {
+h1 {
     font-family: $oswald;
     font-weight: 300;
     letter-spacing: .2rem;
@@ -105,7 +111,7 @@ p {
 
 /*=Base=*/
 section {
-    padding: 5em 0;
+    padding: 5em 8em;
 }
 
 footer {
@@ -119,6 +125,8 @@ form {
 }
 
 ul {
+    font-size: 1.25rem;
+    font-weight: 400;
     padding: 0;
     margin: 0;
     list-style-type: none;
